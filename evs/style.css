@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    position: relative; /* To allow for absolute positioning of the overlay*/
+}
+
+h1{
+    font-weight: bold;
+}
+
+.header-background {
+    background-image: url("https://th.bing.com/th?id=OIP.TKH-sTOYPrg010xg-ENWLQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%; 
+    height: 10%; 
+    opacity: 0.6; /* Adjust opacity for desired overlay effect */
+}
+.header-container { /* Assuming you're using a container */
+    background-image: url("https://th.bing.com/th?id=OIP.TKH-sTOYPrg010xg-ENWLQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"); 
+    background-size: cover;         /* Make the image cover the area */
+    background-repeat: no-repeat;   /* Prevent repetition */
+    background-position: center;    /* Center the image  */
+  }
+  header {
+    text-align: center;
+}
+.header2 {
+    display: flex; /* Enable flexbox */
+    flex-direction: row;  /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute elements with space between */
+    align-items: center;  /* Optional: Center elements vertically if needed */
+    padding: 20px; /* Add some padding if desired */
+}
+
+  nav {
+    float: right;
+    margin-left: 20px;  /* Add some space between navigation and left edge */
+  }
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange navigation links horizontally */
+}
+
+nav li {
+    margin-right: 20px; 
+}
+/* Content Styles */
+.hero {
+    background-color: #e0e0e0;
+    padding: 30px;
+    text-align: center;
+}
+
+.content-block {
+    padding: 30px;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Layout with Media Queries */
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+} 
+/* .material-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    
+
+.material-grid {
+    /* Remove the grid properties */
+}
+
+.material-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px; /* Spacing between items */
+    text-align: center;
+    display: block; /* Make material-item a block element */ 
+}
+
+
+
+
+
+
+body {
+    background-image: url("https://th.bing.com/th?id=OIP.TKH-sTOYPrg010xg-ENWLQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  body {
+    color: white; /* Change 'red' to your desired color */
+}
+nav {
+    height: 0px; 
+    /* Adjust the height as desired */
+}
